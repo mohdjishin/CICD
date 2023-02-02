@@ -12,3 +12,7 @@ func Demo() {
 	fmt.Println("GOARCH ", runtime.GOARCH)
 
 }
+
+func main() {
+	Demo()
+}
