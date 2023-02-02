@@ -3,8 +3,6 @@ package main
 import (
 	"fmt"
 	"runtime"
-
-	"rsc.io/quote"
 )
 
 func Demo() {
@@ -12,5 +10,5 @@ func Demo() {
 
 	fmt.Println("GOOS ", runtime.GOOS)
 	fmt.Println("GOARCH ", runtime.GOARCH)
-	fmt.Println(quote.Go())
+
 }
